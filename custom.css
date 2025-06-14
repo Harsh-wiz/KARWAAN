@@ -1,0 +1,189 @@
+/* Background Image */
+body {
+    background-image: url('assets/Agra.png'); /* Use your collage image here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Main Content Styles */
+.trip-customization {
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
+    border-radius: 15px;
+    max-width: 550px;
+    margin: 50px auto;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.trip-customization h1 {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    color: #f4f4f4;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-size: 1.1rem;
+    text-align: left;
+    font-weight: bold;
+    color: #eaeaea;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.7);
+}
+
+option {
+    background-color: #333; /* Dark background for dropdown options */
+    color: #fff; /* White text for dropdown options */
+}
+
+button.submit-btn {
+    padding: 15px;
+    border: none;
+    background-color: #0066cc;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button.submit-btn:hover {
+    background-color: #004080;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+button.submit-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .trip-customization {
+        padding: 30px;
+    }
+
+    .trip-customization h1 {
+        font-size: 2.2rem;
+    }
+
+    button.submit-btn {
+        font-size: 1.1rem;
+    }
+}
+
+/* Navbar Styles */
+.nav {
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: black;
+    color: white;
+}
+
+.logo img {
+    height: 51px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-items li a:hover {
+    color: whitesmoke;
+}
+
+.btn-1 {
+    background-color: #004082;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-1:hover, button.submit-btn:hover{
+    background-color: #005ea3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        padding: 10px;
+    }
+
+    .nav-items li a {
+        font-size: 14px;
+    }
+
+    .btn-1 {
+        padding: 6px 12px;
+    }
+}

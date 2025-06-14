@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize Your Trip</title>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="icon" href="assets/FAV.webp" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <img height="51px" src="assets/Karwaan Logo.png" alt=""> <!--LOGO-->
+            </div>
+            <ul class="nav-items">
+                <li style="padding-top: 10px"><a href="#">Home</a></li>
+                <li style="padding-top: 10px"><a href="#explore">Explore</a></li>
+                <li style="padding-top: 10px"><a href="">Package</a></li>
+                <li style="padding-top: 10px"><a href="#article">Articles</a></li>
+                <li><button class="btn-1"><a href="Register.html">Sign In</a></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section class="trip-customization">
+        <h1>Customize Your Trip</h1>
+        <form>
+            <label for="numPeople">Number of People:</label>
+            <input type="number" id="numPeople" name="numPeople" required>
+
+            <label for="ageGroup">Age Group:</label>
+            <select id="ageGroup" name="ageGroup" required>
+                <option value="adult">Adults</option>
+                <option value="child">Children</option>
+                <option value="senior">Seniors</option>
+            </select>
+
+            <label for="numDays">Start Date:</label>
+            <input type="date" id="startDate" name="startDate" required>
+
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" name="endDate" required>
+
+            <label for="location">Choose Your Location:</label>
+            <select id="location" name="location" required>
+                <option value="mountains">Mountains</option>
+                <option value="beach">Beach</option>
+                <option value="city">City</option>
+                <option value="forest">Forest</option>
+            </select>
+
+            <label for="city">Select a City:</label>
+            <select id="city" name="city" required>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Ayodhya">Ayodhya</option>
+                <option value="Varanasi">Varanasi</option>
+                <option value="Agra">Agra</option>
+                <option value="Kerala">Kerala</option>
+                <option value="New Delhi">New Delhi</option>
+            </select>
+
+            <button type="submit" class="submit-btn"><a href="index.html"></a>Submit</button>
+        </form>
+    </section>
+</body>
+</html>

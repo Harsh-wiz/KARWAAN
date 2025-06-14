@@ -1,0 +1,45 @@
+<footer id="abt" class="abt">
+        <nav class="about">
+            <div class="abt-content">
+                <div class="image">
+                    <img src="assets/IMG-20241208-A0005.jpg" alt="" class="round-image">
+                </div>
+                <div class="abt-intro">
+                    <h1>Sakshi Rai</h1>
+                    <p>LEADER</p>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/sakshi-rai-07588a33a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
+                        <li><a href="">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="abt-content">
+                <div class="image">
+                    <img src="assets/IMG-20240303-A0003.jpg" alt="" class="round-image">
+                </div>
+                <div class="abt-intro">
+                    <h1>Harsh Pandey</h1>
+                    <p>DEVELOPER</p>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/harsh-pandey-a68b19337?utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
+                        <li><a href="">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
